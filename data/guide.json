@@ -1,0 +1,230 @@
+{
+  "brand": {
+    "name": "WELCOME TO:",
+    "primary": "#ff5f64",
+    "logo_url": "",
+    "footer": "Made with \u2764\ufe0f by WELCOME TO:"
+  },
+  "host": {
+    "name": "Jared & Callaghan",
+    "phone": "+27 76 958 0804",
+    "email": "jaredza81@gmail.com",
+    "whatsapp_e164": "+27769580804"
+  },
+  "property": {
+    "name": "Cozy Solar-Powered Cottage",
+    "address": {
+      "full": "23 7th Street, Melville, Johannesburg"
+    },
+    "wifi": {
+      "ssid": "LightSaber",
+      "password": "ABC123XYZ"
+    }
+  },
+  "pages": [
+    {
+      "id": "welcome",
+      "title": "Welcome",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "intro",
+          "title": "The Opening Chapter",
+          "blocks": [
+            {
+              "type": "icon",
+              "icon": "heart",
+              "label": "Welcome",
+              "description": "Tucked away in the quieter side of Melville, our cosy solar\u2011powered cottage is your gateway to calm and adventure."
+            },
+            {
+              "type": "text",
+              "text": "Step out to the Melville Koppies for a morning hike, or slip through our passage to the buzz of 7th Street."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meet-hosts",
+      "title": "Meet Hosts",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "hosts1",
+          "title": "Your Hosts",
+          "blocks": [
+            {
+              "type": "info",
+              "items": [
+                {
+                  "label": "Hosts",
+                  "value": "Jared & Callaghan"
+                },
+                {
+                  "label": "Phone",
+                  "value": "+27 76 958 0804"
+                },
+                {
+                  "label": "Email",
+                  "value": "jaredza81@gmail.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "check",
+      "title": "Check\u2011in / Check\u2011out",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "times",
+          "title": "Times",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Check\u2011in: 2:00 PM",
+                "Check\u2011out: 10:00 AM"
+              ]
+            },
+            {
+              "type": "status",
+              "label": "Self check\u2011in instructions available in the lockbox.",
+              "state": "success"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wifi",
+      "title": "WiFi",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "wifi1",
+          "title": "Network",
+          "blocks": [
+            {
+              "type": "wifi",
+              "ssid": "LightSaber",
+              "password": "ABC123XYZ",
+              "qr": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rules",
+      "title": "House Rules",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "rules1",
+          "title": "",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "No smoking indoors",
+                "Quiet hours 10pm\u20137am",
+                "No parties or events"
+              ]
+            },
+            {
+              "type": "status",
+              "label": "Please be mindful of neighbours.",
+              "state": "warning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "em1",
+          "title": "Important Numbers",
+          "blocks": [
+            {
+              "type": "info",
+              "items": [
+                {
+                  "label": "National Emergency",
+                  "value": "112"
+                },
+                {
+                  "label": "Netcare 911",
+                  "value": "082 911"
+                },
+                {
+                  "label": "Nearest Hospital",
+                  "value": "Milpark Hospital"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explore",
+      "title": "Explore Jo\u2019burg",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "exp1",
+          "title": "Nearby",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Melville Koppies Nature Reserve",
+                "7th Street Caf\u00e9s & Bars",
+                "Neighbourgoods Market (Sat)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "enabled": true,
+      "sections": [
+        {
+          "id": "c1",
+          "title": "",
+          "blocks": [
+            {
+              "type": "info",
+              "items": [
+                {
+                  "label": "Host",
+                  "value": "Jared & Callaghan"
+                },
+                {
+                  "label": "Phone",
+                  "value": "+27 76 958 0804"
+                },
+                {
+                  "label": "Email",
+                  "value": "jaredza81@gmail.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

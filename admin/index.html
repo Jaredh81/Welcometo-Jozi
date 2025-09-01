@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome Guide – Admin</title>
+  <link rel="stylesheet" href="/admin/admin.css" />
+</head>
+<body>
+  <header class="bar">
+    <strong>Welcome Guide – Editor</strong>
+    <div class="row">
+      <button id="previewBtn">Open Preview</button>
+      <button id="saveDraft">Save Draft</button>
+      <button id="loadDraft">Load Draft</button>
+      <button id="downloadBtn" class="primary">Download JSON</button>
+    </div>
+  </header>
+
+  <main class="grid">
+    <aside class="left" id="pagesPane"></aside>
+    <section class="center">
+      <div id="editorPane" class="panel"></div>
+    </section>
+    <aside class="right">
+      <iframe id="preview" src="/" title="Preview"></iframe>
+    </aside>
+  </main>
+
+  <script type="module" src="/admin/admin.js"></script>
+</body>
+</html>
